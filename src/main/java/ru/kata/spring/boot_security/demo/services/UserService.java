@@ -24,14 +24,6 @@ import javax.transaction.Transactional;
 @Service
 public class UserService implements UserDetailsService {
 
-//    private final UserRepository userRepository;
-//
-//    private final BCryptPasswordEncoder bCryptPasswordEncoder;
-//
-//    public UserService(UserRepository userRepository, BCryptPasswordEncoder bCryptPasswordEncoder) {
-//        this.userRepository = userRepository;
-//        this.bCryptPasswordEncoder = bCryptPasswordEncoder;
-//    }
 
     private final UserRepository userRepository;
     private final PasswordEncoder passwordEncoder;
